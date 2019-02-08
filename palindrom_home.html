@@ -1,0 +1,15 @@
+<html>
+<head>
+  <title>Palindrom Application</title>
+<link rel="stylesheet" href='/static/palindrom.css' />
+</head>
+     <body>
+       <h1> PALINDROM APPLICATION </h1>
+
+      <form action = "{{ url_for('palindrom') }}" method = "post">
+         <p>Enter Number:</p>
+         <p><input type = "number" name = "nm" required/></p>
+         <p><input type = "submit" value = "Check Palindrom"/></p>
+      </form>
+   </body>
+</html>
